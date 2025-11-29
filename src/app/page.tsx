@@ -1,18 +1,9 @@
+import Hero from "./components/Hero";
+
 export default function Home() {
   return (
     <main className="min-h-screen">
-      {/* Hero Section */}
-      <section className="px-6 py-20 text-center">
-        <h1 className="text-4xl font-bold mb-4">
-          Handcrafted Haven
-        </h1>
-        <p className="text-lg text-gray-600 mb-8">
-          Discover unique handmade products created by talented artisans.
-        </p>
-        <button className="px-6 py-3 bg-gray-900 text-white rounded-md">
-          Explore Marketplace
-        </button>
-      </section>
+      <Hero />
 
       {/* Categories */}
       <section className="px-6 py-12">
