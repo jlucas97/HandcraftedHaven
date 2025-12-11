@@ -3,7 +3,10 @@
 import { useState } from "react";
 import ProductCard from "./ProductCard";
 import Filters from "./Filters";
-import { products } from "../products/mockData";
+import { products } from "../../data/products";
+
+
+
 
 export default function ProductsGrid() {
   const [selectedCategory, setSelectedCategory] = useState("");
